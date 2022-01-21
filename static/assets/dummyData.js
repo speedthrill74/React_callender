@@ -1,6 +1,4 @@
 export default {
-}
-{
     "data": [
         {
             "days_in_month": 31,
