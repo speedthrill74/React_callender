@@ -11,7 +11,7 @@ export default class App extends Component {
     super()
 
     this.state = {
-      monthData: dummyData.data[0]
+      monthData: dummyData.data[1]
     }
   }
 

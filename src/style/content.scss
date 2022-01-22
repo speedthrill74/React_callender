@@ -1,0 +1,44 @@
+.content-wrapper {
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 30px repeat(6, 1fr);
+    justify-items: center;
+
+    .day-of-week {
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .calendar-box {
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        grid-template-rows: 25px 1fr;
+
+        .date {
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            grid-row: 2;
+            grid-column: 1, -1;
+        }
+    }
+
+}
